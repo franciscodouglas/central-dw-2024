@@ -1,2 +1,5 @@
-# Aula 04 - Git e GitHub
-Aula Introdutória de Git e GitHub em Desenvolvimento Web I, no curso de DSM na FATEC ZL - 2024
+# Repositório Centralizador de Aulas e Atividades Loboratoriais em Desenvolvimento Web I
+- Aula 03: Introdução ao HTML (part I)
+- Aula 04 e 05: Introdução ao Git GitHub
+- Aula 06: Introdução ao HTML (part II)
+- Aula 07: Introdução ao CSS (part I)
