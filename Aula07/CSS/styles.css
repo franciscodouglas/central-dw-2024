@@ -1,0 +1,32 @@
+p{
+    color: rgb(30, 87, 210);
+    font-size: 52px;
+}
+
+/* Utilizando IDs */
+
+#parag-1{
+    font-size: 50px;
+    color: cadetblue;
+}
+
+#parag-2{
+    font-size: 25px;
+    color: coral;
+}
+
+/* Utilizando Classes */
+
+.ret-0{
+    width: 300px;
+    height: 150px;
+    background-color: coral;
+    border: 2px solid;
+}
+
+.ret-1{
+    width: 600px;
+    height: 300px;
+    background-color: aqua;
+    border: 12px solid rgba(13, 230, 16, 0.267);
+}
