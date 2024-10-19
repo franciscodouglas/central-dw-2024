@@ -65,3 +65,128 @@ div{
 .none{
     display: none;
 }
+/* f: flexbox 
+   h: horizontal*/
+.f-h-start{
+    display: flex;
+    justify-content: flex-start;
+    height: 200px;
+    width: 50vw;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+}
+.f-h-end{
+    display: flex;
+    justify-content: flex-end;
+    height: 200px;
+    width: 50vw;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+}
+
+.f-h-center{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 50vw;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+}
+
+.f-h-arround{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    width: 50vw;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+}
+
+.f-h-between{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    width: 50vw;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+}
+
+.f-v-start{
+    display: flex;
+    align-items: flex-start;
+    height: 200px;
+    width: 50vw;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+}
+
+.f-v-end{
+    display: flex;
+    align-items: flex-end;
+    height: 200px;
+    width: 50vw;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+}
+
+.f-v-center{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 50vw;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+}
+
+.f-v-stretch{
+    display: flex;
+    align-items: stretch;
+    height: 200px;
+    width: 50vw;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+}
+
+
+.f-v-col-start{
+    display: flex;
+    align-items: flex-start;
+    height: 200px;
+    width: 50vw;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.f-v-col-end{
+    display: flex;
+    align-items: flex-end;
+    height: 200px;
+    width: 50vw;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.f-v-col-center{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 50vw;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+
+
+/* itens filhos */
+span{
+    font-size: 18px;
+    background-color: white;
+    width: 90px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
