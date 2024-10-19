@@ -1,0 +1,17 @@
+/* @media screen and (max-width: 600px) {
+   body{
+    font-size: 10px;
+    background-color: blue;
+    color: white;
+   }
+} */
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    body{
+     font-size: 10px;
+     background-color: blue;
+     color: white;
+    }
+ }
+
