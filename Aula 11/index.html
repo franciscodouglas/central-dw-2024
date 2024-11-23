@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- JavaScript Inline: Fica por dentro de um Elemento HTML -->
+    <button onclick="alert('Olá Mundo')">Clique Aqui</button>
+    <button onclick="alert('Olá Mundo - Hello World')">Clique Aqui</button>
+    <button onclick="alert('Olá Mundo - Hello World')">Clique Aqui</button>
+    <br>
+    <br>
+
+    <button onclick="olaMundo()">Clique Aqui</button>
+    <button onclick="olaMundo()">Clique Aqui</button>
+    <button onclick="olaMundo()">Clique Aqui</button>
+    <br>
+    <br>
+    <button onclick="exemploExterno()">Clique Aqui</button>
+    <!-- JavaScript Internal: Codígo em JavaScript no final da página -->
+    <script>
+        function olaMundo(){
+            alert('Olá Mundo - Hello World');
+        }
+    </script>
+
+    <script src="JS/index.js"></script>
+
+</body>
+</html>
